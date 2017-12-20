@@ -1,0 +1,6 @@
+framework module KSVSSdk {
+  umbrella header "KSVSSdk.h"
+
+  export *
+  module * { export * }
+}

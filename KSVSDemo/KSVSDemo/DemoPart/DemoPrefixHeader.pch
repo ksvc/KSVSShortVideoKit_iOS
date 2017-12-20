@@ -1,0 +1,29 @@
+//
+//  PrefixHeader.pch
+//  KSVSDemo
+//
+//  Created by devcdl on 2017/11/25.
+//  Copyright © 2017年 Kingsoft. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "DemoDefines.h"
+#import "DemoUser.h"
+#import "DemoCommon.h"
+#import "UIView+Toast.h"
+#import "YYReachability.h"
+#import <KSVSSdk/KSVSSdk.h>
+
+#define kNetworkReachable ([YYReachability reachability].isReachable)
+#define iPhoneX ([[DemoCommon deviceName] isEqualToString:@"iPhone X"])
+#define SHOW_STATUS_BAR ([UIApplication sharedApplication].statusBarHidden = NO)
+#define HIDE_STATUS_BAR ([UIApplication sharedApplication].statusBarHidden = YES)
+
+#define SHOW_NO_NETWORK ([self.view makeToast:kNoNetworkString duration:0.6 position:[NSValue valueWithCGPoint:self.view.center] style:nil])
+
+#endif /* PrefixHeader_pch */

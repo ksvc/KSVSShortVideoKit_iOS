@@ -1,0 +1,25 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'KSVSDemo' do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+
+pod 'KSYMediaEditorKit', '~> 1.6.1'
+pod 'Bugly'
+
+pod 'Masonry'
+pod 'MBProgressHUD'
+pod 'YYKit'
+pod 'SVProgressHUD'
+pod 'AFNetworking', '~> 3.0'
+pod 'VTMagic'
+pod 'FMDB'
+pod 'ICGVideoTrimmer'
+pod 'UITextView+Placeholder', '~> 1.2'
+pod 'MJRefresh'
+pod 'Toast', '~> 4.0.0'
+
+  # Pods for KSVSDemo
+
+end

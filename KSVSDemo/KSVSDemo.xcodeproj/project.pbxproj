@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F06CD4A31FBC802A00562FE7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F06CD4A21FBC802A00562FE7 /* AppDelegate.m */; };
+		F06CD4A61FBC802A00562FE7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F06CD4A51FBC802A00562FE7 /* ViewController.m */; };
+		F06CD4A91FBC802A00562FE7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F06CD4A71FBC802A00562FE7 /* Main.storyboard */; };
+		F06CD4AE1FBC802A00562FE7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F06CD4AC1FBC802A00562FE7 /* LaunchScreen.storyboard */; };
+		F06CD4B11FBC802A00562FE7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F06CD4B01FBC802A00562FE7 /* main.m */; };
+		F07E72201FE95F28005C3F5D /* DemoCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = F07E71EA1FE95F28005C3F5D /* DemoCommon.m */; };
+		F07E72211FE95F28005C3F5D /* DemoCacheLoginMsg.m in Sources */ = {isa = PBXBuildFile; fileRef = F07E71EF1FE95F28005C3F5D /* DemoCacheLoginMsg.m */; };
+		F07E72221FE95F28005C3F5D /* DemoLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F07E71F11FE95F28005C3F5D /* DemoLoginViewController.m */; };
+		F07E72231FE95F28005C3F5D /* DemoLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F07E71F21FE95F28005C3F5D /* DemoLoginViewController.xib */; };
+		F07E72241FE95F29005C3F5D /* DemoLoginOutResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = F07E71F51FE95F28005C3F5D /* DemoLoginOutResponse.m */; };
+		F07E72251FE95F29005C3F5D /* DemoProfileResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = F07E71F71FE95F28005C3F5D /* DemoProfileResponse.m */; };
+		F07E72261FE95F29005C3F5D /* DemoResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = F07E71F91FE95F28005C3F5D /* DemoResponse.m */; };
+		F07E72271FE95F29005C3F5D /* DemoUpdateProfileResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = F07E71FB1FE95F28005C3F5D /* DemoUpdateProfileResponse.m */; };
+		F07E72281FE95F29005C3F5D /* DemoUser.m in Sources */ = {isa = PBXBuildFile; fileRef = F07E71FD1FE95F28005C3F5D /* DemoUser.m */; };
+		F07E72291FE95F29005C3F5D /* DemoVerificationCodeLoginResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = F07E71FF1FE95F28005C3F5D /* DemoVerificationCodeLoginResponse.m */; };
+		F07E722A1FE95F29005C3F5D /* DemoVerificationCodeResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = F07E72011FE95F28005C3F5D /* DemoVerificationCodeResponse.m */; };
+		F07E722B1FE95F29005C3F5D /* DemoNetworkService.m in Sources */ = {isa = PBXBuildFile; fileRef = F07E72041FE95F28005C3F5D /* DemoNetworkService.m */; };
+		F07E722C1FE95F29005C3F5D /* DemoAlbumViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F07E72081FE95F28005C3F5D /* DemoAlbumViewController.m */; };
+		F07E722D1FE95F29005C3F5D /* DemoPersonalCenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F07E720A1FE95F28005C3F5D /* DemoPersonalCenterViewController.m */; };
+		F07E722E1FE95F29005C3F5D /* DemoPersonalCenterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F07E720B1FE95F28005C3F5D /* DemoPersonalCenterViewController.xib */; };
+		F07E722F1FE95F29005C3F5D /* DemoPersonalSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F07E720D1FE95F28005C3F5D /* DemoPersonalSettingViewController.m */; };
+		F07E72301FE95F29005C3F5D /* DemoPersonalSettingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F07E720E1FE95F28005C3F5D /* DemoPersonalSettingViewController.xib */; };
+		F07E72311FE95F29005C3F5D /* DemoActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = F07E72111FE95F28005C3F5D /* DemoActionSheet.m */; };
+		F07E72321FE95F29005C3F5D /* DemoAssetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F07E72131FE95F28005C3F5D /* DemoAssetCell.m */; };
+		F07E72331FE95F29005C3F5D /* DemoPersonalBGView.m in Sources */ = {isa = PBXBuildFile; fileRef = F07E72151FE95F28005C3F5D /* DemoPersonalBGView.m */; };
+		F07E72341FE95F29005C3F5D /* DemoReleasedVideoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F07E72171FE95F28005C3F5D /* DemoReleasedVideoCell.m */; };
+		F07E72351FE95F29005C3F5D /* DemoReleasedVideoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F07E72181FE95F28005C3F5D /* DemoReleasedVideoCell.xib */; };
+		F07E72361FE95F29005C3F5D /* DemoRecommendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F07E721C1FE95F28005C3F5D /* DemoRecommendViewController.m */; };
+		F07E72371FE95F29005C3F5D /* DemoNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = F07E721F1FE95F28005C3F5D /* DemoNavigationBar.m */; };
+		F07E723B1FE9601A005C3F5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F07E723A1FE9601A005C3F5D /* Assets.xcassets */; };
+		F0C2D9B41FEA9FE50058A441 /* KSVSSdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0C2D9B31FEA9FE50058A441 /* KSVSSdk.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F06CD49E1FBC802A00562FE7 /* KSVSDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KSVSDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F06CD4A11FBC802A00562FE7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F06CD4A21FBC802A00562FE7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F06CD4A41FBC802A00562FE7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F06CD4A51FBC802A00562FE7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F06CD4A81FBC802A00562FE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F06CD4AD1FBC802A00562FE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F06CD4AF1FBC802A00562FE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F06CD4B01FBC802A00562FE7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F07E71E91FE95F28005C3F5D /* DemoCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoCommon.h; sourceTree = "<group>"; };
+		F07E71EA1FE95F28005C3F5D /* DemoCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoCommon.m; sourceTree = "<group>"; };
+		F07E71EB1FE95F28005C3F5D /* DemoDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoDefines.h; sourceTree = "<group>"; };
+		F07E71EC1FE95F28005C3F5D /* DemoPrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoPrefixHeader.pch; sourceTree = "<group>"; };
+		F07E71EE1FE95F28005C3F5D /* DemoCacheLoginMsg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoCacheLoginMsg.h; sourceTree = "<group>"; };
+		F07E71EF1FE95F28005C3F5D /* DemoCacheLoginMsg.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoCacheLoginMsg.m; sourceTree = "<group>"; };
+		F07E71F01FE95F28005C3F5D /* DemoLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoLoginViewController.h; sourceTree = "<group>"; };
+		F07E71F11FE95F28005C3F5D /* DemoLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoLoginViewController.m; sourceTree = "<group>"; };
+		F07E71F21FE95F28005C3F5D /* DemoLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DemoLoginViewController.xib; sourceTree = "<group>"; };
+		F07E71F41FE95F28005C3F5D /* DemoLoginOutResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoLoginOutResponse.h; sourceTree = "<group>"; };
+		F07E71F51FE95F28005C3F5D /* DemoLoginOutResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoLoginOutResponse.m; sourceTree = "<group>"; };
+		F07E71F61FE95F28005C3F5D /* DemoProfileResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoProfileResponse.h; sourceTree = "<group>"; };
+		F07E71F71FE95F28005C3F5D /* DemoProfileResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoProfileResponse.m; sourceTree = "<group>"; };
+		F07E71F81FE95F28005C3F5D /* DemoResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoResponse.h; sourceTree = "<group>"; };
+		F07E71F91FE95F28005C3F5D /* DemoResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoResponse.m; sourceTree = "<group>"; };
+		F07E71FA1FE95F28005C3F5D /* DemoUpdateProfileResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoUpdateProfileResponse.h; sourceTree = "<group>"; };
+		F07E71FB1FE95F28005C3F5D /* DemoUpdateProfileResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoUpdateProfileResponse.m; sourceTree = "<group>"; };
+		F07E71FC1FE95F28005C3F5D /* DemoUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoUser.h; sourceTree = "<group>"; };
+		F07E71FD1FE95F28005C3F5D /* DemoUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoUser.m; sourceTree = "<group>"; };
+		F07E71FE1FE95F28005C3F5D /* DemoVerificationCodeLoginResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoVerificationCodeLoginResponse.h; sourceTree = "<group>"; };
+		F07E71FF1FE95F28005C3F5D /* DemoVerificationCodeLoginResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoVerificationCodeLoginResponse.m; sourceTree = "<group>"; };
+		F07E72001FE95F28005C3F5D /* DemoVerificationCodeResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoVerificationCodeResponse.h; sourceTree = "<group>"; };
+		F07E72011FE95F28005C3F5D /* DemoVerificationCodeResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoVerificationCodeResponse.m; sourceTree = "<group>"; };
+		F07E72031FE95F28005C3F5D /* DemoNetworkService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoNetworkService.h; sourceTree = "<group>"; };
+		F07E72041FE95F28005C3F5D /* DemoNetworkService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoNetworkService.m; sourceTree = "<group>"; };
+		F07E72051FE95F28005C3F5D /* DemoServerConfige.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoServerConfige.h; sourceTree = "<group>"; };
+		F07E72071FE95F28005C3F5D /* DemoAlbumViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoAlbumViewController.h; sourceTree = "<group>"; };
+		F07E72081FE95F28005C3F5D /* DemoAlbumViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoAlbumViewController.m; sourceTree = "<group>"; };
+		F07E72091FE95F28005C3F5D /* DemoPersonalCenterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoPersonalCenterViewController.h; sourceTree = "<group>"; };
+		F07E720A1FE95F28005C3F5D /* DemoPersonalCenterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoPersonalCenterViewController.m; sourceTree = "<group>"; };
+		F07E720B1FE95F28005C3F5D /* DemoPersonalCenterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DemoPersonalCenterViewController.xib; sourceTree = "<group>"; };
+		F07E720C1FE95F28005C3F5D /* DemoPersonalSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoPersonalSettingViewController.h; sourceTree = "<group>"; };
+		F07E720D1FE95F28005C3F5D /* DemoPersonalSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoPersonalSettingViewController.m; sourceTree = "<group>"; };
+		F07E720E1FE95F28005C3F5D /* DemoPersonalSettingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DemoPersonalSettingViewController.xib; sourceTree = "<group>"; };
+		F07E72101FE95F28005C3F5D /* DemoActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoActionSheet.h; sourceTree = "<group>"; };
+		F07E72111FE95F28005C3F5D /* DemoActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoActionSheet.m; sourceTree = "<group>"; };
+		F07E72121FE95F28005C3F5D /* DemoAssetCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoAssetCell.h; sourceTree = "<group>"; };
+		F07E72131FE95F28005C3F5D /* DemoAssetCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoAssetCell.m; sourceTree = "<group>"; };
+		F07E72141FE95F28005C3F5D /* DemoPersonalBGView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoPersonalBGView.h; sourceTree = "<group>"; };
+		F07E72151FE95F28005C3F5D /* DemoPersonalBGView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoPersonalBGView.m; sourceTree = "<group>"; };
+		F07E72161FE95F28005C3F5D /* DemoReleasedVideoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoReleasedVideoCell.h; sourceTree = "<group>"; };
+		F07E72171FE95F28005C3F5D /* DemoReleasedVideoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoReleasedVideoCell.m; sourceTree = "<group>"; };
+		F07E72181FE95F28005C3F5D /* DemoReleasedVideoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DemoReleasedVideoCell.xib; sourceTree = "<group>"; };
+		F07E721B1FE95F28005C3F5D /* DemoRecommendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoRecommendViewController.h; sourceTree = "<group>"; };
+		F07E721C1FE95F28005C3F5D /* DemoRecommendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoRecommendViewController.m; sourceTree = "<group>"; };
+		F07E721E1FE95F28005C3F5D /* DemoNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoNavigationBar.h; sourceTree = "<group>"; };
+		F07E721F1FE95F28005C3F5D /* DemoNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoNavigationBar.m; sourceTree = "<group>"; };
+		F07E723A1FE9601A005C3F5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F0C2D9B31FEA9FE50058A441 /* KSVSSdk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KSVSSdk.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F06CD49B1FBC802A00562FE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0C2D9B41FEA9FE50058A441 /* KSVSSdk.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9B631C763AF9C3297D05B717 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F0C2D9B31FEA9FE50058A441 /* KSVSSdk.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F06CD4951FBC802A00562FE7 = {
+			isa = PBXGroup;
+			children = (
+				F06CD4A01FBC802A00562FE7 /* KSVSDemo */,
+				F06CD49F1FBC802A00562FE7 /* Products */,
+				9B631C763AF9C3297D05B717 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F06CD49F1FBC802A00562FE7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F06CD49E1FBC802A00562FE7 /* KSVSDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F06CD4A01FBC802A00562FE7 /* KSVSDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F06CD4A11FBC802A00562FE7 /* AppDelegate.h */,
+				F06CD4A21FBC802A00562FE7 /* AppDelegate.m */,
+				F06CD4A41FBC802A00562FE7 /* ViewController.h */,
+				F06CD4A51FBC802A00562FE7 /* ViewController.m */,
+				F07E71E71FE95F28005C3F5D /* DemoPart */,
+				F06CD4A71FBC802A00562FE7 /* Main.storyboard */,
+				F06CD4AC1FBC802A00562FE7 /* LaunchScreen.storyboard */,
+				F07E723A1FE9601A005C3F5D /* Assets.xcassets */,
+				F06CD4AF1FBC802A00562FE7 /* Info.plist */,
+				F06CD4B01FBC802A00562FE7 /* main.m */,
+			);
+			path = KSVSDemo;
+			sourceTree = "<group>";
+		};
+		F07E71E71FE95F28005C3F5D /* DemoPart */ = {
+			isa = PBXGroup;
+			children = (
+				F07E71EB1FE95F28005C3F5D /* DemoDefines.h */,
+				F07E71EC1FE95F28005C3F5D /* DemoPrefixHeader.pch */,
+				F07E71E81FE95F28005C3F5D /* Common */,
+				F07E71ED1FE95F28005C3F5D /* Login */,
+				F07E71F31FE95F28005C3F5D /* Model */,
+				F07E72021FE95F28005C3F5D /* NetworkService */,
+				F07E72061FE95F28005C3F5D /* PersonalCenter */,
+				F07E72191FE95F28005C3F5D /* Recommend */,
+			);
+			path = DemoPart;
+			sourceTree = "<group>";
+		};
+		F07E71E81FE95F28005C3F5D /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				F07E71E91FE95F28005C3F5D /* DemoCommon.h */,
+				F07E71EA1FE95F28005C3F5D /* DemoCommon.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		F07E71ED1FE95F28005C3F5D /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				F07E71EE1FE95F28005C3F5D /* DemoCacheLoginMsg.h */,
+				F07E71EF1FE95F28005C3F5D /* DemoCacheLoginMsg.m */,
+				F07E71F01FE95F28005C3F5D /* DemoLoginViewController.h */,
+				F07E71F11FE95F28005C3F5D /* DemoLoginViewController.m */,
+				F07E71F21FE95F28005C3F5D /* DemoLoginViewController.xib */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		F07E71F31FE95F28005C3F5D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F07E71F41FE95F28005C3F5D /* DemoLoginOutResponse.h */,
+				F07E71F51FE95F28005C3F5D /* DemoLoginOutResponse.m */,
+				F07E71F61FE95F28005C3F5D /* DemoProfileResponse.h */,
+				F07E71F71FE95F28005C3F5D /* DemoProfileResponse.m */,
+				F07E71F81FE95F28005C3F5D /* DemoResponse.h */,
+				F07E71F91FE95F28005C3F5D /* DemoResponse.m */,
+				F07E71FA1FE95F28005C3F5D /* DemoUpdateProfileResponse.h */,
+				F07E71FB1FE95F28005C3F5D /* DemoUpdateProfileResponse.m */,
+				F07E71FC1FE95F28005C3F5D /* DemoUser.h */,
+				F07E71FD1FE95F28005C3F5D /* DemoUser.m */,
+				F07E71FE1FE95F28005C3F5D /* DemoVerificationCodeLoginResponse.h */,
+				F07E71FF1FE95F28005C3F5D /* DemoVerificationCodeLoginResponse.m */,
+				F07E72001FE95F28005C3F5D /* DemoVerificationCodeResponse.h */,
+				F07E72011FE95F28005C3F5D /* DemoVerificationCodeResponse.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F07E72021FE95F28005C3F5D /* NetworkService */ = {
+			isa = PBXGroup;
+			children = (
+				F07E72031FE95F28005C3F5D /* DemoNetworkService.h */,
+				F07E72041FE95F28005C3F5D /* DemoNetworkService.m */,
+				F07E72051FE95F28005C3F5D /* DemoServerConfige.h */,
+			);
+			path = NetworkService;
+			sourceTree = "<group>";
+		};
+		F07E72061FE95F28005C3F5D /* PersonalCenter */ = {
+			isa = PBXGroup;
+			children = (
+				F07E72071FE95F28005C3F5D /* DemoAlbumViewController.h */,
+				F07E72081FE95F28005C3F5D /* DemoAlbumViewController.m */,
+				F07E72091FE95F28005C3F5D /* DemoPersonalCenterViewController.h */,
+				F07E720A1FE95F28005C3F5D /* DemoPersonalCenterViewController.m */,
+				F07E720B1FE95F28005C3F5D /* DemoPersonalCenterViewController.xib */,
+				F07E720C1FE95F28005C3F5D /* DemoPersonalSettingViewController.h */,
+				F07E720D1FE95F28005C3F5D /* DemoPersonalSettingViewController.m */,
+				F07E720E1FE95F28005C3F5D /* DemoPersonalSettingViewController.xib */,
+				F07E720F1FE95F28005C3F5D /* View */,
+			);
+			path = PersonalCenter;
+			sourceTree = "<group>";
+		};
+		F07E720F1FE95F28005C3F5D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F07E72101FE95F28005C3F5D /* DemoActionSheet.h */,
+				F07E72111FE95F28005C3F5D /* DemoActionSheet.m */,
+				F07E72121FE95F28005C3F5D /* DemoAssetCell.h */,
+				F07E72131FE95F28005C3F5D /* DemoAssetCell.m */,
+				F07E72141FE95F28005C3F5D /* DemoPersonalBGView.h */,
+				F07E72151FE95F28005C3F5D /* DemoPersonalBGView.m */,
+				F07E72161FE95F28005C3F5D /* DemoReleasedVideoCell.h */,
+				F07E72171FE95F28005C3F5D /* DemoReleasedVideoCell.m */,
+				F07E72181FE95F28005C3F5D /* DemoReleasedVideoCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F07E72191FE95F28005C3F5D /* Recommend */ = {
+			isa = PBXGroup;
+			children = (
+				F07E721A1FE95F28005C3F5D /* Controller */,
+				F07E721D1FE95F28005C3F5D /* View */,
+			);
+			path = Recommend;
+			sourceTree = "<group>";
+		};
+		F07E721A1FE95F28005C3F5D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F07E721B1FE95F28005C3F5D /* DemoRecommendViewController.h */,
+				F07E721C1FE95F28005C3F5D /* DemoRecommendViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F07E721D1FE95F28005C3F5D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F07E721E1FE95F28005C3F5D /* DemoNavigationBar.h */,
+				F07E721F1FE95F28005C3F5D /* DemoNavigationBar.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F06CD49D1FBC802A00562FE7 /* KSVSDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F06CD4B41FBC802A00562FE7 /* Build configuration list for PBXNativeTarget "KSVSDemo" */;
+			buildPhases = (
+				F06CD49A1FBC802A00562FE7 /* Sources */,
+				F06CD49B1FBC802A00562FE7 /* Frameworks */,
+				F06CD49C1FBC802A00562FE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KSVSDemo;
+			productName = KSVSDemo;
+			productReference = F06CD49E1FBC802A00562FE7 /* KSVSDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F06CD4961FBC802A00562FE7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = Kingsoft;
+				TargetAttributes = {
+					F06CD49D1FBC802A00562FE7 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F06CD4991FBC802A00562FE7 /* Build configuration list for PBXProject "KSVSDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F06CD4951FBC802A00562FE7;
+			productRefGroup = F06CD49F1FBC802A00562FE7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F06CD49D1FBC802A00562FE7 /* KSVSDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F06CD49C1FBC802A00562FE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F06CD4AE1FBC802A00562FE7 /* LaunchScreen.storyboard in Resources */,
+				F07E722E1FE95F29005C3F5D /* DemoPersonalCenterViewController.xib in Resources */,
+				F07E72231FE95F28005C3F5D /* DemoLoginViewController.xib in Resources */,
+				F07E72351FE95F29005C3F5D /* DemoReleasedVideoCell.xib in Resources */,
+				F07E723B1FE9601A005C3F5D /* Assets.xcassets in Resources */,
+				F07E72301FE95F29005C3F5D /* DemoPersonalSettingViewController.xib in Resources */,
+				F06CD4A91FBC802A00562FE7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F06CD49A1FBC802A00562FE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F07E72361FE95F29005C3F5D /* DemoRecommendViewController.m in Sources */,
+				F07E72321FE95F29005C3F5D /* DemoAssetCell.m in Sources */,
+				F07E722F1FE95F29005C3F5D /* DemoPersonalSettingViewController.m in Sources */,
+				F07E72211FE95F28005C3F5D /* DemoCacheLoginMsg.m in Sources */,
+				F06CD4A61FBC802A00562FE7 /* ViewController.m in Sources */,
+				F07E72331FE95F29005C3F5D /* DemoPersonalBGView.m in Sources */,
+				F07E72281FE95F29005C3F5D /* DemoUser.m in Sources */,
+				F07E72271FE95F29005C3F5D /* DemoUpdateProfileResponse.m in Sources */,
+				F07E722C1FE95F29005C3F5D /* DemoAlbumViewController.m in Sources */,
+				F07E72201FE95F28005C3F5D /* DemoCommon.m in Sources */,
+				F07E72241FE95F29005C3F5D /* DemoLoginOutResponse.m in Sources */,
+				F07E72221FE95F28005C3F5D /* DemoLoginViewController.m in Sources */,
+				F07E72251FE95F29005C3F5D /* DemoProfileResponse.m in Sources */,
+				F06CD4B11FBC802A00562FE7 /* main.m in Sources */,
+				F07E72291FE95F29005C3F5D /* DemoVerificationCodeLoginResponse.m in Sources */,
+				F06CD4A31FBC802A00562FE7 /* AppDelegate.m in Sources */,
+				F07E72261FE95F29005C3F5D /* DemoResponse.m in Sources */,
+				F07E72311FE95F29005C3F5D /* DemoActionSheet.m in Sources */,
+				F07E72341FE95F29005C3F5D /* DemoReleasedVideoCell.m in Sources */,
+				F07E72371FE95F29005C3F5D /* DemoNavigationBar.m in Sources */,
+				F07E722A1FE95F29005C3F5D /* DemoVerificationCodeResponse.m in Sources */,
+				F07E722D1FE95F29005C3F5D /* DemoPersonalCenterViewController.m in Sources */,
+				F07E722B1FE95F29005C3F5D /* DemoNetworkService.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F06CD4A71FBC802A00562FE7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F06CD4A81FBC802A00562FE7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F06CD4AC1FBC802A00562FE7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F06CD4AD1FBC802A00562FE7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F06CD4B21FBC802A00562FE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F06CD4B31FBC802A00562FE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F06CD4B51FBC802A00562FE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZGJ54Q7R45;
+				ENABLE_BITCODE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/KSVSDemo/DemoPart/DemoPrefixHeader.pch";
+				INFOPLIST_FILE = KSVSDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_CFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ksyun.ts.ShortVideoDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F06CD4B61FBC802A00562FE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZGJ54Q7R45;
+				ENABLE_BITCODE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/KSVSDemo/DemoPart/DemoPrefixHeader.pch";
+				INFOPLIST_FILE = KSVSDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_CFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ksyun.ts.ShortVideoDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F06CD4991FBC802A00562FE7 /* Build configuration list for PBXProject "KSVSDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F06CD4B21FBC802A00562FE7 /* Debug */,
+				F06CD4B31FBC802A00562FE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F06CD4B41FBC802A00562FE7 /* Build configuration list for PBXNativeTarget "KSVSDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F06CD4B51FBC802A00562FE7 /* Debug */,
+				F06CD4B61FBC802A00562FE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F06CD4961FBC802A00562FE7 /* Project object */;
+}

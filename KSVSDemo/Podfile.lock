@@ -1,0 +1,92 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - Bugly (2.4.8)
+  - FMDB (2.7.2):
+    - FMDB/standard (= 2.7.2)
+  - FMDB/standard (2.7.2)
+  - GPUImage (0.1.7)
+  - ICGVideoTrimmer (1.1)
+  - Ks3SDK (1.7.2)
+  - KSYMediaEditorKit (1.6.1):
+    - GPUImage
+    - Ks3SDK (= 1.7.2)
+    - libksygpulive (~> 2.9.1)
+  - libksygpulive (2.9.2):
+    - libksygpulive/libksygpulive (= 2.9.2)
+  - libksygpulive/base (2.9.2)
+  - libksygpulive/libksygpulive (2.9.2):
+    - GPUImage
+    - libksygpulive/streamerbase
+  - libksygpulive/mediacodec (2.9.2)
+  - libksygpulive/mediacore_enc_base (2.9.2)
+  - libksygpulive/mediacore_enc_lite (2.9.2)
+  - libksygpulive/streamerbase (2.9.2):
+    - libksygpulive/base
+    - libksygpulive/mediacodec
+    - libksygpulive/mediacore_enc_base
+    - libksygpulive/mediacore_enc_lite
+    - libksygpulive/yuv
+  - libksygpulive/yuv (2.9.2)
+  - Masonry (1.1.0)
+  - MBProgressHUD (1.1.0)
+  - MJRefresh (3.1.15)
+  - SVProgressHUD (2.2.2)
+  - Toast (4.0.0)
+  - UITextView+Placeholder (1.2.0)
+  - VTMagic (1.2.4):
+    - VTMagic/Core (= 1.2.4)
+  - VTMagic/Core (1.2.4)
+  - YYKit (1.0.9):
+    - YYKit/no-arc (= 1.0.9)
+  - YYKit/no-arc (1.0.9)
+
+DEPENDENCIES:
+  - AFNetworking (~> 3.0)
+  - Bugly
+  - FMDB
+  - ICGVideoTrimmer
+  - KSYMediaEditorKit (~> 1.6.1)
+  - Masonry
+  - MBProgressHUD
+  - MJRefresh
+  - SVProgressHUD
+  - Toast (~> 4.0.0)
+  - UITextView+Placeholder (~> 1.2)
+  - VTMagic
+  - YYKit
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  Bugly: da3c02408c14838d498429320545a8e439392978
+  FMDB: 6198a90e7b6900cfc046e6bc0ef6ebb7be9236aa
+  GPUImage: 733a5f0fab92df9de1c37ba9df520a833ccb406d
+  ICGVideoTrimmer: 1f54de0595af56af2a406f20cdb33c1c440d15cd
+  Ks3SDK: 04460cc317225ee7085ba598de36062bb342a508
+  KSYMediaEditorKit: a6d2ad1c7abb184daef0611d1b1b5991cd3f3eb2
+  libksygpulive: 7454036295a3a0c0dd214508838d060748547c82
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
+  MJRefresh: 9af70f5f9327a2cf87f0fb5929f35fcc2fa638ea
+  SVProgressHUD: 59b2d3dabacbd051576d21d32293ca7228dc18b0
+  Toast: 91b396c56ee72a5790816f40d3a94dd357abc196
+  UITextView+Placeholder: 77680995fcdd07c3f52ec92fe1150874a2ac89ff
+  VTMagic: b49e5f456dbcbfd9a3588ba92417233a105bc193
+  YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
+
+PODFILE CHECKSUM: 7d02b27cade5c38bb2479a1ff61f1245401df0c3
+
+COCOAPODS: 1.2.1
