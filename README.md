@@ -14,7 +14,7 @@
 ## 2 项目架构
 短视频解决方案架构图如下:
 
-![image](https://raw.githubusercontent.com/wiki/ksvc/KSVSShortVideoKit_Android/images/framework.png)
+![image](https://raw.githubusercontent.com/wiki/ksvc/KSVSShortVideoKit_Android/images/7.png)
 ### 2.1 架构流程描述
 * APP 集成时，需要先鉴权才能使用短视频解决方案后续功能
 * 短视频解决方案包含推荐页、播放页、录制页等等特别漂亮绚丽的展示效果
@@ -119,7 +119,7 @@ pod 'Toast', '~> 4.0.0'
 * 邮箱: zengfanping@kingsoft.com
 * QQ讨论群：
 * 574179720 视频云技术交流群
-* 620036233 视频云Android技术交流
+* 621137661 视频云iOS技术交流
 * 以上两个加一个QQ群即可
-* Issues: https://github.com/ksvc/KSVSShortVideoKit_Android/issues
+* Issues: https://github.com/ksvc/KSVSShortVideoKit_iOS/issues
 
