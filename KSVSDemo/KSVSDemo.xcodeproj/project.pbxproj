@@ -37,7 +37,7 @@
 		F07E72361FE95F29005C3F5D /* DemoRecommendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F07E721C1FE95F28005C3F5D /* DemoRecommendViewController.m */; };
 		F07E72371FE95F29005C3F5D /* DemoNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = F07E721F1FE95F28005C3F5D /* DemoNavigationBar.m */; };
 		F07E723B1FE9601A005C3F5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F07E723A1FE9601A005C3F5D /* Assets.xcassets */; };
-		F0C2D9B41FEA9FE50058A441 /* KSVSSdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0C2D9B31FEA9FE50058A441 /* KSVSSdk.framework */; };
+		F0C2D9B61FEAB5570058A441 /* KSVSSdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0C2D9B51FEAB5570058A441 /* KSVSSdk.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -98,7 +98,7 @@
 		F07E721E1FE95F28005C3F5D /* DemoNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoNavigationBar.h; sourceTree = "<group>"; };
 		F07E721F1FE95F28005C3F5D /* DemoNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoNavigationBar.m; sourceTree = "<group>"; };
 		F07E723A1FE9601A005C3F5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F0C2D9B31FEA9FE50058A441 /* KSVSSdk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KSVSSdk.framework; sourceTree = "<group>"; };
+		F0C2D9B51FEAB5570058A441 /* KSVSSdk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KSVSSdk.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,7 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F0C2D9B41FEA9FE50058A441 /* KSVSSdk.framework in Frameworks */,
+				F0C2D9B61FEAB5570058A441 /* KSVSSdk.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -116,7 +116,7 @@
 		9B631C763AF9C3297D05B717 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				F0C2D9B31FEA9FE50058A441 /* KSVSSdk.framework */,
+				F0C2D9B51FEAB5570058A441 /* KSVSSdk.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
