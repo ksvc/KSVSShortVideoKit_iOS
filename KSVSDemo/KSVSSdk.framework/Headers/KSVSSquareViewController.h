@@ -10,6 +10,10 @@
 
 @interface KSVSSquareViewController : KSVSBaseViewController
 
+/**
+ * @abstract 初始化广场页控制器
+ * @param userId App用户id(由App Server返回)
+ */
 - (instancetype)initWithUserId:(NSString *)userId;
 
 - (instancetype)initWithUserId:(NSString *)userId

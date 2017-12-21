@@ -30,10 +30,21 @@
                                 size:(NSInteger)size
                           completion:(void(^)(KSVSReleasedVideoResponse *response ,KSVSError *ksvsError))completion;
 
+/**
+ * @abstract 删除用户已发布的视频
+ * @param userId App用户id
+ * @parma videoId 视频id
+ * @param completion 删除请求结束后的回调（请求失败错误码参考KSVSErrorCodeDefines.h）
+ */
 + (void)deleteReleasedVideoWithUserId:(NSString *)userId
                               videoId:(NSString *)videoId
                            completion:(void(^)(KSVSDeleteReleasedVideoResponse *response ,KSVSError *ksvsError))completion;
 
+/**
+ * @abstract 获取上传视频／头像所需的配置信息
+ * @param userId App用户id
+ * @param completion 获取配置信息结束后的回调（请求失败错误码参考KSVSErrorCodeDefines.h）
+ */
 + (void)fetchUploadConfigWithUserId:(NSString *)userId
                       completion:(void(^)(KSVSUploadConfigeResponse *response, KSVSError *ksvsError))completion;
 

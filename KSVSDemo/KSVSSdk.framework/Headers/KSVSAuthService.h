@@ -13,12 +13,12 @@
 @interface KSVSAuthService : NSObject
 
 /**
- * 鉴权接口
+ * @abstract 鉴权接口
  * @param bundleIdentifier bundle identifier
- * @param ksvsToken KSVSDk鉴权所需的token
- * @param accessToken 用户服务器下发的token
+ * @param ksvsToken KSVSDk鉴权所需的token(由金山云颁发，可参考https://github.com/ksvc/KSVSShortVideoKit_iOS申请流程)
+ * @param accessToken App Server下发的token(登录App后，由App Server后返回的token，可参考KSVSDemo部分)
  * @param success 请求鉴权信息成功后的回调
- * @param failure 请求鉴权信息失败后的回调
+ * @param failure 请求鉴权信息失败后的回调（KSVSError错误码参考KSVSErrorCodeDefines.h）
  */
 + (void)authWithBundleIdentifier:(NSString *)bundleIdentifier
                        ksvsToken:(NSString *)ksvsToken
