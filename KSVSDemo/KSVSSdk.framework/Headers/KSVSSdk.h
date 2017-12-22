@@ -7,12 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 
 //! Project version number for KSVSSdk.
 FOUNDATION_EXPORT double KSVSSdkVersionNumber;
 
 //! Project version string for KSVSSdk.
 FOUNDATION_EXPORT const unsigned char KSVSSdkVersionString[];
+
+FOUNDATION_EXPORT NSString * const KSVSSdkVersion;
 
 // In this header, you should import all the public headers of your framework using statements like #import <KSVSSdk/PublicHeader.h>
 
