@@ -15,7 +15,7 @@
 #import "NSObject+YYModel.h"
 #import "DemoNetworkService.h"
 #import "MBProgressHUD.h"
-#import "UIView+toast.h"
+#import "UIView+Toast.h"
 
 @interface DemoRecommendViewController ()
 @property (nonatomic, strong) DemoNavigationBar *navigationBar;
