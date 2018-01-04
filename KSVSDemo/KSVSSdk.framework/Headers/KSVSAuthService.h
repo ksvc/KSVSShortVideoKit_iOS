@@ -26,4 +26,14 @@
                          success:(void(^)(void))success
                          failure:(void(^)(KSVSError *ksvsError))failure;
 
+/**
+ * @abstract 获取鉴权状态（YES:已鉴权，NO:未鉴权）
+ */
++ (BOOL)authState;
+
+/**
+ * @abstract 清除本地鉴权信息
+ */
++ (BOOL)clearAuthInfo;
+
 @end

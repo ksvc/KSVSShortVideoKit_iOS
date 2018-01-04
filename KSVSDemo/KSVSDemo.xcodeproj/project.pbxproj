@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F00ACFF61FFE454E00C085CA /* KSVSSdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F00ACFF51FFE454E00C085CA /* KSVSSdk.framework */; };
 		F06CD4A31FBC802A00562FE7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F06CD4A21FBC802A00562FE7 /* AppDelegate.m */; };
 		F06CD4A61FBC802A00562FE7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F06CD4A51FBC802A00562FE7 /* ViewController.m */; };
 		F06CD4A91FBC802A00562FE7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F06CD4A71FBC802A00562FE7 /* Main.storyboard */; };
@@ -37,10 +38,10 @@
 		F07E72361FE95F29005C3F5D /* DemoRecommendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F07E721C1FE95F28005C3F5D /* DemoRecommendViewController.m */; };
 		F07E72371FE95F29005C3F5D /* DemoNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = F07E721F1FE95F28005C3F5D /* DemoNavigationBar.m */; };
 		F07E723B1FE9601A005C3F5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F07E723A1FE9601A005C3F5D /* Assets.xcassets */; };
-		F08299361FED15610028E5E5 /* KSVSSdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F08299351FED15610028E5E5 /* KSVSSdk.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F00ACFF51FFE454E00C085CA /* KSVSSdk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KSVSSdk.framework; sourceTree = "<group>"; };
 		F06CD49E1FBC802A00562FE7 /* KSVSDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KSVSDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F06CD4A11FBC802A00562FE7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F06CD4A21FBC802A00562FE7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -98,7 +99,6 @@
 		F07E721E1FE95F28005C3F5D /* DemoNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoNavigationBar.h; sourceTree = "<group>"; };
 		F07E721F1FE95F28005C3F5D /* DemoNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoNavigationBar.m; sourceTree = "<group>"; };
 		F07E723A1FE9601A005C3F5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F08299351FED15610028E5E5 /* KSVSSdk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KSVSSdk.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,7 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F08299361FED15610028E5E5 /* KSVSSdk.framework in Frameworks */,
+				F00ACFF61FFE454E00C085CA /* KSVSSdk.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -116,7 +116,7 @@
 		9B631C763AF9C3297D05B717 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				F08299351FED15610028E5E5 /* KSVSSdk.framework */,
+				F00ACFF51FFE454E00C085CA /* KSVSSdk.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";

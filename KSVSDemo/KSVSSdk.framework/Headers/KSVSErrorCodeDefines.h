@@ -134,6 +134,11 @@ static NSInteger const KSVS_TOKEN_NULL = -360001;
  */
 static NSInteger const KSVS_BUNDLEID_NULL = -360002;
 
+/**
+ * 上传视频的地址（localVideoPath）为空、格式错误（非.mp4结尾）
+ */
+static NSInteger const KSVS_UPLOAD_VIDEOPATH_INVALID = -370001;
+
 /******** 展示文案 ********/
 static NSString * const kSVSNoNetworkString = @"当前网络不可用";
 static NSString * const kSelectNoneVideoString = @"还未选中任何视频";

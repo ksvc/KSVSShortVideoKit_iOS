@@ -28,4 +28,16 @@
                 success:(void(^)(NSString *headImageUrl))success
                 failure:(void(^)(KSVSError *ksvsError))failure;
 
+/**
+ * @abstract 上传视频
+ * @param localVideoPath 本地视频地址
+ * @param progress 上传视频的进度（0 ~ 1）
+ * @param success 上传成功的回调，remoteVideoPath为所上传视频在ks3上的地址
+ * @param failure 上传失败的回调
+ */
+- (void)uploadVideo:(NSString *)localVideoPath
+           progress:(void(^)(float progressValue))progress
+            success:(void(^)(NSString *remoteVideoPath))success
+            failure:(void(^)(KSVSError *ksvsError))failure;
+
 @end
