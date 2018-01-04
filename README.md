@@ -1,4 +1,4 @@
-# 金山云短视频解决方案 KSVSShortVideo_iOS
+# 金山云短视频解决方案 KSVSShortVideoKit_iOS
 
 
 ## 1 简述
@@ -70,22 +70,22 @@
 1. 若购买短视频解决方案套餐包，需进入[金山云短视频解决方案官网](https://www.ksyun.com/post/solution/KSVS)，点击“购买套餐包”，确认购买，填写表单信息，授权token会以邮件的形式提供。
 2. 若单独购买短视频SDK，联系金山云销售进行授权申请，或者直接拨打：62927777 转 5120
 
-### 4.2 集成流程
+### 4.2 集成流程    
+**SDK中用到的图片资源，请暂时从demo中的Assets.xcassets导入到自己的工程**    
+
 1. 从github克隆KSVSShortVideoKit_iOS工程，进入KSVSDemo目录下，用Xcode打开KSVSDemo.xcworkspace，将Frameworks目录下的KSVSSdk拖进自己的工程中
 
 ```
 github 地址：https://github.com/ksvc/KSVSShortVideoKit_iOS.git
-```
+```   
 
-1. 通过cocoapods依赖其他相关项目
+通过cocoapods依赖其他相关项目
 
 ```
 pod 'KSYMediaEditorKit', '~> 1.6.1'
-
 pod 'Masonry'
 pod 'MBProgressHUD'
 pod 'YYKit'
-pod 'SVProgressHUD'
 pod 'AFNetworking', '~> 3.0'
 pod 'VTMagic'
 pod 'FMDB'
@@ -95,9 +95,13 @@ pod 'MJRefresh'
 pod 'UICKeyChainStore'
 pod 'Toast', '~> 4.0.0'
 
-```
+```      
+2. 直接通过pod引入（**推荐**）    
+``` 
+pod 'KSVSShortVideoKit_iOS', '~>1.1.0'
+```    
 
-1. 具体的接口使用，请在WIKI查看：[wiki](https://github.com/ksvc/KSVSShortVideoKit_iOS/wiki)
+3. 具体的接口使用，请在[WIKI](https://github.com/ksvc/KSVSShortVideoKit_iOS/wiki)查看
 
 ## 5 反馈与建议
 ### 5.1 反馈模版
